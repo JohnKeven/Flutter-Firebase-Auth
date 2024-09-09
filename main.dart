@@ -35,7 +35,7 @@ void main() async {
     print('Login efetuado com sucesso ${firebaseUser.user!.email}'); //aqui ja poderia mandar o usuario pra home
   }).catchError((error){
     print('Erro ao efetuar login: $error');
-  });
+  }); 
   */
   runApp(const MyApp());
 }
